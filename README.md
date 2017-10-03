@@ -1,5 +1,3 @@
-# eHooke_1.0
-
 ### Built with Python 2.7
 ### Currently this project requires the following libraries:
 #### scikit_image==0.13.0

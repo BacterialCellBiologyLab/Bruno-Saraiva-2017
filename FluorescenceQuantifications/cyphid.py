@@ -223,6 +223,8 @@ class Identifier(object):
         self.report_path = FD.askdirectory()
         self.path = self.report_path + "/_cell_data/fluor"
         images_list = sorted(os.listdir(self.path))
+        
+        self.cells = {}
 
         for image in images_list:
             id = str(image.split(".")[0])

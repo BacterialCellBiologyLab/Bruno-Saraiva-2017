@@ -197,6 +197,8 @@ class Identifier(object):
         self.report_path = FD.askdirectory()
         self.path = self.report_path + "/_cyphid_images/"
         images_list = sorted(os.listdir(self.report_path + "/_images"))
+        
+        self.cells = {}
 
         for image in images_list:
             id = str(image.split(".")[0])
